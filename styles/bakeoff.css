@@ -1,0 +1,737 @@
+body {
+    background-image: url(/styles/calum-lewis-391366-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+/* Home Page */
+.homeTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2E2E2E;
+    text-shadow: 2px 1px 2px whitesmoke;
+    margin-top: 140px;
+
+}
+
+.homeTitle h2 {
+    font-size: 20px;
+}
+
+.homeTitle i {
+    color: #2E2E2E;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+/* Remaining titles */
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2E2E2E;
+    text-shadow: 2px 1px 2px whitesmoke;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.textShadow {
+    display: flex;
+    flex-direction: column;
+    color: #2E2E2E;
+    text-align: justify;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.textShadowTBA {
+    display: flex;
+    flex-direction: column;
+    color: #2E2E2E;
+    text-align: justify;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textShadowTBA p {
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.challengeShadow {
+    display: flex;
+    flex-direction: column;
+    color: #2E2E2E;
+    text-align: justify;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.challengeShadowLast {
+    display: flex;
+    flex-direction: column;
+    color: #2E2E2E;
+    text-align: justify;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.rulesShadow {
+    display: flex;
+    flex-direction: column;
+    color: #2E2E2E;
+    text-align: justify;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 i {
+    color: black;
+}
+
+a i {
+    font-size: 26px;
+}
+
+
+.nav-item {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+.figure-caption {
+    color: black;
+    text-align: center;
+}
+
+
+.photosFirst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(253, 254, 254, .8);
+    padding-top: 10px;
+    margin-top: 30px;
+
+}
+
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(253, 254, 254, .8);
+    padding-top: 10px;
+
+}
+
+.photosLast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(253, 254, 254, .8);
+    padding-top: 10px;
+    margin-bottom: 80px;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+input {
+    width: 250px;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+.whiteArea {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.whiteAreaLast {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bakerjudgesMenu {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bakerjudgesMenuLast {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutMenu {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutMenuLast {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutMenu i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+.aboutMenuLast i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+
+.bakerjudgesMenu {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.bakerjudgesMenuLast {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bakerjudgesMenu i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+.bakerjudgesMenuLast i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+/*
+a:-webkit-any-link {
+    text-decoration: none;
+}
+*/
+
+.whiteArea h6 {
+    margin-bottom: 20px;
+}
+
+.whiteArea i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+.whiteAreaLast i {
+    font-size: 32px;
+    color: #C28F3E;
+    margin-bottom: 15px;
+}
+
+.whiteAreaProfile {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: black;
+}
+
+
+button.btn.btn-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.signinP {
+    padding-top: 30px;
+}
+
+
+
+nav i {
+    color: #585858;
+    font-size: 32px;
+}
+
+
+.fa-sign-in-alt {
+    color: #585858;
+}
+
+
+.signin i {
+    color: #C28F3E;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+/*Profiles */
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+}
+
+
+figure {
+    width: 100px;
+
+}
+
+.info {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+
+.infoJudges {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.pick,
+.pickJudge {
+    background-color: rgba(253, 254, 254, .8);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 70px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.pick i,
+.pickJudge i {
+    font-size: 32px;
+    color: #C28F3E;
+}
+
+.flags img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.country {
+    display: flex;
+    align-items: baseline;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.listJudges {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(253, 254, 254, .8);
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.smImg {
+    height: 30px;
+}
+
+
+.smImg2 {
+    height: 30px;
+}
+
+
+#textInput {
+    border-radius: 7px;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 26px;
+    font-size: 20px;
+}
+
+#create-post {
+    background-color: whitesmoke;
+    border: none;
+}
+
+
+#create-post {
+    font-size: 25px;
+}
+
+#create-post i {
+    color: #C28F3E;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.inputs {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+
+}
+
+#posts div {
+    font-size: 17px;
+    /*    background-color: white;*/
+    margin-bottom: 10px;
+    border-radius: 7px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-wrap: break-word;
+
+}
+
+
+#posts img {
+    width: 50px;
+}
+
+.top {
+    background-color: whitesmoke;
+    height: 50x;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding-top: 5px;
+}
+
+.top h3 {
+    margin-bottom: 0px;
+}
+
+.top i {
+    color: #C28F3E;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+
+
+
+#posts {
+    scroll-behavior: smooth;
+    height: 85vh;
+    overflow-y: scroll;
+}
+
+
+
+/******************************************/
+
+
+
+@media only screen and (orientation: landscape) {
+
+    #textInput {
+        width: 500px;
+
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .scoreLand {
+        margin-top: 5px;
+
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 200px;
+        margin-top: 50px;
+    }
+
+    figure {
+        width: 170px;
+        margin-bottom: 30px;
+
+    }
+
+    .challengeLand {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    .challengeShadow {
+        width: 250px;
+    }
+
+    .rulesLand {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
+    }
+
+    .bakerjudgesLand {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+    }
+
+    .rulesShadow {
+        width: 160px;
+        text-align: center;
+    }
+
+    .aboutMenu,
+    .aboutMenuLast {
+        width: 165px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bakerjudgesMenu,
+    .bakerjudgesMenuLast {
+        width: 180px;
+        height: 170px;
+    }
+
+    .profileContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info {
+        height: 400px;
+        width: 320px;
+        margin-bottom: 70px;
+    }
+
+    .infoJudges {
+        height: 300px;
+        width: 320px;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+
+
+    .pickAnother {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .pick {
+        margin-bottom: 80px;
+        margin-top: -180px;
+        width: 170px;
+    }
+
+
+    .pickJudge {
+        margin-bottom: 60px;
+        margin-top: -150px;
+        width: 170px;
+    }
+
+}
+
+
+/*chat*/
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.owner {
+    width: 250px;
+    align-self: flex-end;
+    background-color: #A5C8CC;
+}
+
+
+
+.guest {
+    width: 250px;
+    align-self: flex-start;
+    background-color: whitesmoke;
+    border: solid 0.5px #A5C8CC;
+}
